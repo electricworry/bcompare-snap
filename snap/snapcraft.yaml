@@ -1,5 +1,5 @@
 name: bcompare
-version: '5.0.0.29328'
+version: '5.0.2.30045'
 summary: bcompare is a powerful time-saving utility for comparing files & folders.
 description: |
   bcompare is a powerful time-saving utility for comparing files and
@@ -28,7 +28,7 @@ apps:
 parts:
   bcompare:
     plugin: dump
-    source: https://www.scootersoftware.com/files/bcompare-5.0.0.29328_amd64.deb
+    source: https://www.scootersoftware.com/files/bcompare-5.0.2.30045_amd64.deb
     source-type: deb
     override-build: |
       craftctl default
